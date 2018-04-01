@@ -1,15 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import App from './App';
+import LoginPage from './pages/LoginPage';
 
-const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
-};
-
-const App = () => (
-  <div style={styles}>
-    hello
-  </div>
-);
-
-render(<App />, document.getElementById('root'));
+render(<LoginPage />, document.getElementById('root'));
