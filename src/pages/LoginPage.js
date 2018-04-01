@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './Home';
 import './LoginPage.css';
 class LoginPage extends Component{
   render(){
     return(
+
+    <div class="back">
     <div class="wrapper">
       <div class="one">
       </div>
-      <div class="two" style>
-          <h2> Login </h2>
+      <div class="two">
+          <h2> Login </h2> 
         <input
           class="Form-control"
           type="text"
@@ -27,7 +31,7 @@ class LoginPage extends Component{
           type="button"
           >
           <div class= "login1btn">
-          log in
+            login  
           </div>
           </button>
         <br/>
@@ -51,6 +55,8 @@ class LoginPage extends Component{
       <div class="three">
       </div>
     </div>
+    </div>
+
     )
   }
 }
