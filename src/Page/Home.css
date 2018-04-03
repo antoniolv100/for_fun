@@ -1,0 +1,19 @@
+.wrapper {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.one1{
+grid-area: ava;
+}
+.two1{
+grid-area: options;
+}
+.three1{
+grid-area: postbar;
+}
+.four1{
+grid-area: toolkit;
+}
+.three1{
+grid-area: newfeed;
+}

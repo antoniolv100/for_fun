@@ -6,45 +6,45 @@ class LoginPage extends Component{
   render(){
     return(
 
-    <div class="back">
-    <div class="wrapper">
-      <div class="one">
+    <div className="back">
+    <div className="wrapper">
+      <div className="one">
       </div>
-      <div class="two">
+      <div className="two">
           <h2> Login </h2> 
         <input
-          class="Form-control"
+          className="Form-control"
           type="text"
           placeholder="email"
         />
         <br/>
         <br/>
         <input 
-          class="form-control"
+          className="form-control"
           type="password"
           placeholder="password"
         />
         <br/>
         <br/>
         <button
-          class="btn btn-primary"
+          className="btn btn-primary"
           type="button"
           >
-          <div class= "login1btn">
+          <div className= "login1btn">
             login  
           </div>
           </button>
         <br/>
         <br/>
         <button
-          class="btn btn-primary"
+          className="btn btn-primary"
           type="button"
         >
           Sign up
           </button>
-          <div class="divider"/>
+          <div className="divider"/>
         <button
-          class="btn btn-primary"
+          className="btn btn-primary"
           type="button"
         >
           forgot password 
@@ -52,7 +52,7 @@ class LoginPage extends Component{
         <br/>
         <br/>
         </div>
-      <div class="three">
+      <div className="three">
       </div>
     </div>
     </div>
