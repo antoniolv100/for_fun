@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import App from './App';
-import LoginPage from './pages/LoginPage';
+import LoginPage from './Page/LoginPage';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import NavBar from './tool/Header';
+import Home from './Page/Home';
 
-class route extends React.Component{
+class App extends React.Component{
   render(){
     return(
-      <Router>
-      
-      </Router>
+     <div>
+     <NavBar/>
+     <LoginPage/>
+     </div>
     );
   }
 }
 
-render(<LoginPage />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));

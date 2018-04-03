@@ -6,8 +6,10 @@
   "homepage": "https://codesandbox.io/s/new",
   "main": "src/index.js",
   "dependencies": {
-    "bootstrap": "4.0.0",
+    "babel": "6.23.0",
+    "bootstrap": "3.3.7",
     "material-ui": "1.0.0-beta.40",
+    "material-ui-icons": "1.0.0-beta.36",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-router": "4.2.0",
