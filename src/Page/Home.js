@@ -1,22 +1,30 @@
 import React, { Component } from 'react';
 import './Home.css';
+import Post from './Post';
+import NewFeed from './NewFeed';
+import Tool from './Tool';
+import AvaterPhoto from './AvaterPhoto';
 class Home extends Component {
   render() {
     return (
-      <div className = "wrapper1">
-        <div className = "one1">
-        hi
+      <div>
+      <div className = "container-1">
+        <div className = "box1">
+        <AvaterPhoto/>
         </div>
-        <div className = "two1">
-        hi
-        </div>
-        <div className = "three1">
-        </div>
-        <div className = "four1">
-        </div>
-        <div className = "five1">
+        <div className = "box2">
+        <Post/>
         </div>
       </div>
+      <div className = "container-2">
+        <div className = "box21">
+        <Tool/>
+        </div>
+        <div className = "box22">
+        <NewFeed/>
+        </div>
+      </div>
+    </div>
     );
   }
 }

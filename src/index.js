@@ -8,10 +8,8 @@ import Home from './Page/Home';
 class App extends React.Component{
   render(){
     return(
-     <div>
-     <NavBar/>
-     <LoginPage/>
-     </div>
+    <NavBar/>
+
     );
   }
 }

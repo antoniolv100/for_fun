@@ -2,6 +2,7 @@ import React , { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '../Page/Home';
 import LoginPage from '../Page/LoginPage';
+import Search from '../Page/Search';
 const listyle = {
   float: 'left'
 };
