@@ -11,14 +11,18 @@ class Navitem extends Component {
     return(    
      <Router>
       <div>
-        <ul>
-          <li><Link to={'/'}>Login</Link></li>
-          <li><Link to={'/Home'}>Home</Link></li>      
-        </ul>
+        <div>
+          <ul className = "Navflex" >
+            <li><Link to={'/'}>Login</Link></li>
+            <li><Link to={'/Home'}>Home</Link></li> 
+            <li><Link to={'/Search'}>Search</Link></li>     
+          </ul>
+        </div>
         <hr />
         <Switch>
           <Route exact path='/' component={LoginPage} />
           <Route exact path='/Home' component={Home} />
+          <Route exact path='/Search' component={Search} />
         </Switch>
         </div>
      </Router>
